@@ -1,0 +1,7 @@
+{
+  "name": "vue-hcp-stage",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
