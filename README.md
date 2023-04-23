@@ -1,6 +1,10 @@
 # Hybrid-IndicateursStatistiques
 Development of a Hybrid App using Vue JS and Ionic Framework : Visualization of statistical indicators.
 
+Backend : NodeJS - ExpressJS - MySQL - PHP
+Frontend : Ionic Framework - VueJS
+Conception : UML 
+
 For all informations  : https://amaador.com/stagehcp/
 
 Class Diagram : 
