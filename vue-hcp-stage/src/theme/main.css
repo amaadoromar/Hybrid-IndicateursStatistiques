@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Sura:wght@700&display=swap');
+
+ion-toolbar{
+    --background: #3d1818;
+    --color:  white;
+}
+
+ion-progress-bar{
+  --buffer-background: #3d1818;
+  --progress-background:  #F28E1D;
+ 
+}
+
+
+
+ion-tab-bar{
+    --color:white;
+    --padding-left:2%;
+    --padding-right:2%;
+    --background: #3d1818;
+}
+ion-list{
+    margin-left: 0%;
+}
+ion-item a{
+    text-decoration:  none;
+    color : inherit;
+    font-family: Sura;
+}
+.inner-scroll{
+  left : -50px;
+}
+ion-footer {
+  height: 8%;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+#infodata { 
+    text-align: center;
+}
+
+router-link{
+    --color:inherit;
+}
+
