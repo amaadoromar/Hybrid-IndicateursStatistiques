@@ -1,6 +1,6 @@
 # Hybrid App for Statistical Indicators Visualization
 
-This Hybrid App was developed during an internship at the Haut Commissariat au plan between May and July 2021. It uses Vue JS and Ionic Framework for frontend development, which allows users to visualize statistical indicators on their mobile devices. The app is powered by a backend API built with NodeJS and ExpressJS, which connects to a MySQL database, the admin panel is a PHP script and it serves to add categories , indicators and sections that are displayed in the app. 
+This Hybrid App was developed during an internship at the Haut Commissariat au plan between May and July 2021. It uses Vue JS and Ionic Framework for frontend development, which allows users to visualize statistical indicators on their mobile devices. The app is powered by a backend API built with NodeJS and ExpressJS, which connects to a MySQL database, the admin panel is a PHP script and it serves to add categories , indicators and sections that are displayed within the app. 
 
 # Features
 
@@ -16,6 +16,29 @@ The application architecture was designed using UML diagrams to ensure a clean a
 
 The app can be deployed as a native app for iOS and Android using the Ionic Framework, or as a web app using any modern web browser. The backend API can be deployed on any server that supports NodeJS and MySQL.
 
+# Installation 
+
+Note: Before running the project, make sure that you have installed Node.js and the Ionic CLI on your machine.
+
+1 - clone the repository 
+2 - Upload the SQL dump file hcp.sql to your SQL database , updated ./php-node/config/db.php with your SQL database informations :
+     $connection=mysqli_connect("localhost", "root", "", "hcp");
+     
+3 - Upload the PHP script located in php-node to your host
+4 - test the script in your web browser , use admin-admin as user-pass
+5 - navigate to the NodeJS Folder part of the project and Install dependencies using 'npm install' command.
+6 - change ./db.config.js/ with your current Database informations
+module.exports = {
+    HOST: "localhost",
+    USER: "root",
+    PASSWORD: "",
+    DB: "hcp"
+  };
+  
+6 - run the command 'node server.js' --it will run the Node.js server on port 3000
+7 - navgiate to the VueJS Folder part and Install dependencies using 'npm install' command.
+8 - run the command 'ionic serve' --it will run the Ionic server on port 8100
+
 # Contributing
 
 Contributions are welcome! If you want to contribute to the project, please fork the repository and submit a pull request with your changes.
@@ -23,7 +46,10 @@ Contributions are welcome! If you want to contribute to the project, please fork
 
 For all informations  : https://amaador.com/stagehcp/
 
+# Screenshots
+
 Class Diagram : 
+
 ![new](https://user-images.githubusercontent.com/71513920/233866908-5c529d87-122a-4142-baed-cdf28310a608.PNG)
 
 ![image](https://user-images.githubusercontent.com/71513920/233867343-96229997-9155-48b4-a3e6-0c0703fa890c.png)
