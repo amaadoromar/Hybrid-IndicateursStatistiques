@@ -1,9 +1,25 @@
-# Hybrid-IndicateursStatistiques
-Development of a Hybrid App using Vue JS and Ionic Framework : Visualization of statistical indicators.
+# Hybrid App for Statistical Indicators Visualization
 
-Backend : NodeJS - ExpressJS - MySQL - PHP
-Frontend : Ionic Framework - VueJS
-Conception : UML 
+This Hybrid App was developed during an internship at the Haut Commissariat au plan between May and July 2021. It uses Vue JS and Ionic Framework for frontend development, which allows users to visualize statistical indicators on their mobile devices. The app is powered by a backend API built with NodeJS and ExpressJS, which connects to a MySQL database, the admin panel is a PHP script and it serves to add categories , indicators and sections that are displayed in the app. 
+
+# Features
+
+Clean UI with easy-access to different sections of the app.
+Dashboard with statistical indicators displayed in charts and graphs.
+Admin panel for managing the content of the app.
+
+# Architecture
+
+The application architecture was designed using UML diagrams to ensure a clean and modular codebase. The front-end is built with VueJS and Ionic Framework, which provides a fast and responsive user interface. The backend is built with NodeJS and ExpressJS, which provides a scalable and efficient API to communicate with the MySQL database. PHP script is used for server-side data processing for the admin panel.
+
+# Deployment
+
+The app can be deployed as a native app for iOS and Android using the Ionic Framework, or as a web app using any modern web browser. The backend API can be deployed on any server that supports NodeJS and MySQL.
+
+# Contributing
+
+Contributions are welcome! If you want to contribute to the project, please fork the repository and submit a pull request with your changes.
+
 
 For all informations  : https://amaador.com/stagehcp/
 
