@@ -20,24 +20,20 @@ The app can be deployed as a native app for iOS and Android using the Ionic Fram
 
 Note: Before running the project, make sure that you have installed Node.js and the Ionic CLI on your machine.
 
-1 - clone the repository 
-2 - Upload the SQL dump file hcp.sql to your SQL database , updated ./php-node/config/db.php with your SQL database informations :
-     $connection=mysqli_connect("localhost", "root", "", "hcp");
-     
-3 - Upload the PHP script located in php-node to your host
-4 - test the script in your web browser , use admin-admin as user-pass
+1 - clone the repository.
+2 - Upload the SQL dump file hcp.sql to your SQL database , updated ./php-node/config/db.php with your SQL database informations:
+    $connection=mysqli_connect("localhost", "root", "", "hcp");
+ 
+3 - Upload the PHP script located in php-node to your host.
+4 - test the script in your web browser , use admin-admin as user-pass.
 5 - navigate to the NodeJS Folder part of the project and Install dependencies using 'npm install' command.
-6 - change ./db.config.js/ with your current Database informations
-module.exports = {
-    HOST: "localhost",
-    USER: "root",
-    PASSWORD: "",
-    DB: "hcp"
-  };
-  
-6 - run the command 'node server.js' --it will run the Node.js server on port 3000
-7 - navgiate to the VueJS Folder part and Install dependencies using 'npm install' command.
-8 - run the command 'ionic serve' --it will run the Ionic server on port 8100
+6 - change ./db.config.js/ with your current Database informations:
+
+    module.exports = {HOST: "localhost",USER: "root",PASSWORD: "",DB: "hcp"};
+    
+7 - run the command 'node server.js' --it will run the Node.js server on port 3000.
+8 - navgiate to the VueJS Folder part and Install dependencies using 'npm install' command.
+9 - run the command 'ionic serve' --it will run the Ionic server on port 8100.
 
 # Contributing
 
